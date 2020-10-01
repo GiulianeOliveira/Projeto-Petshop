@@ -1,6 +1,6 @@
 /.vs
 /.vscode
-/.dist
+/dist
 /node_modules
 /server-petshop/node_modules
 /server-petshop/package-lock.json
