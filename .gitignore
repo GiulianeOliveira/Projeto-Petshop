@@ -1,0 +1,8 @@
+/.vs
+/.vscode
+/.dist
+/node_modules
+/server-petshop/node_modules
+/server-petshop/package-lock.json
+/server-petshop/yarn.lock
+/yarn.lock

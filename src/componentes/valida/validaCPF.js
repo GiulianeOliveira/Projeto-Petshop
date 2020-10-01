@@ -1,4 +1,4 @@
-  function verificaCPFInvalidos(cpf) {
+function verificaCPFInvalidos(cpf) {
     const cpfsInvalidos = [
       "11111111111",
       "22222222222",
@@ -62,4 +62,4 @@
   }
   
 
-  
+export default validaCPF

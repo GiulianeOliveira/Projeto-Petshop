@@ -1,0 +1,21 @@
+label {
+  text-align: center;
+  font-family: "Pacifico";
+}
+#transform {
+  text-align: center;
+}
+
+form[data-form] {
+  overflow: hidden;
+
+}
+
+#msg > .alert {
+  transform: translateX(-101%);
+  transition: ease-in-out .2s;
+}
+
+#msg.active .alert {
+  transform: translateX(0);
+}

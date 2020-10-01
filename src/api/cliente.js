@@ -40,3 +40,26 @@ const editandoCliente = (id, cpf, nome) => {
     body: json
   })
 }
+
+const cadastrarClientes = (nome, cpf) => {
+  const json = JSON.stringify({
+    nome: nome,
+    cpf: cpf
+  });
+
+  return fetch("http://localhost:4000/clientes/cliente", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json" 
+    },
+    body: json
+  })
+}
+
+export {
+  listarClientes, 
+  deletarCliente,
+  detalhaCliente,
+  editandoCliente,
+  cadastrarClientes
+}
